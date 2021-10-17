@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="game.css">
+    <body>
+    <h4 id="player1"></h4>
+    <span id="player1_score"></span>
+    <h4 id="player2"></h4>
+    <span id="player2_score"></span>
+    <div class="container">
+        <center>
+            <h2 style="color: white;">Guess the Word</h2>
+            <h3>Question Turn- </h3>
+            <span id="player_ques"></span>
+            <h3>Answer Turn- </h3>
+            <span id="player_ans"></span>
+            <div id="output" class="col-lg-6"></div>
+            <br>
+            <br>
+            <label>Send your Word <b style="color: red;">Try putting words which have 5 or more alphabets</b></label>
+            <input id="word" class="form-control" placeholder="word">
+            <br>
+            <br>
+            <button onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
+        </center>
+    </div>
+    <script src="gamepage.js"></script>
+    </body>
+</html>
